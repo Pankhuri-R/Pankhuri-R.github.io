@@ -962,29 +962,20 @@ p.form-message.error {
       width: 100%;
     }
 
-    .first-half{
-      width: 60%;
-      display: inline-block;
-    }
-
-    .second-half{
-      display: inline-block;
-      width: 35%;
-      margin: 1%;
-    }
-
-    .second-half h4{
-      font-size: 310%;
-      margin-bottom: 2%;
-    }
-
-    @media screen and (max-width:320px){
+    @media screen and (min-width:767px){
       .first-half{
-        width: 100%;
-        display: block;
+        width: 60%;
+        display: inline-block;
       }
-
+  
       .second-half{
-        width: 100%;
+        display: inline-block;
+        width: 35%;
+        margin: 1%;
+      }
+  
+      .second-half h4{
+        font-size: 310%;
+        margin-bottom: 2%;
       }
     }
